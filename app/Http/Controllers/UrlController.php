@@ -20,6 +20,7 @@ class UrlController extends Controller
 					$UrlObj->hashname=$HashStr;
 					$UrlObj->save();
 				}	
+		return redirect('/home');			
 		
 	}
 }
