@@ -30,7 +30,13 @@
 		@endforeach
 		</tbody>
 	</table>
-    
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="links">
+		<a href="/makebase">Make Base</a>
+	</div> 
 </div>
 @endsection
 
