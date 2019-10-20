@@ -89,7 +89,7 @@
 					@csrf
 					<label>Введите свой урл</label>
 					@if (isset($data))
-						<input type='text' name="UserUrl" value="'https://urlik.herokuapp.com/+{{$data}}'"> 
+						<input type='text' name="UserUrl" value="https://urlik.herokuapp.com/{{$data}}"> 
 					@else	
 						<input type='text' name="UserUrl"> 
 					@endif         

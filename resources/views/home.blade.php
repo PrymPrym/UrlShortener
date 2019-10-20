@@ -26,7 +26,7 @@
 		</thead>
 		<tbody>
 		@foreach ($data as $item)
-			<tr><td> {{ $loop->index }} </td><td> {{$item->longurl}} </td><td>{{$item->hashname}}</td><td><a href='/delete/{{$item->id}}'>Удалить Url</a></td></tr>
+			<tr><td> {{ $loop->index }} </td><td> {{$item->longurl}} </td><td>https://urlik.herokuapp.com/{{$item->hashname}}</td><td><a href='/delete/{{$item->id}}'>Удалить Url</a></td></tr>
 		@endforeach
 		</tbody>
 	</table>
